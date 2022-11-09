@@ -6,10 +6,15 @@ let timer = document.querySelector('.timer')
 
 // Initialize variables
 let [milisec, seconds, minutes, hours] = [0, 0, 0, 0]
-let int
+let int = null
 
 // Event to set interval 
 start.addEventListener('click', (e)=>{
+    // Issue - if you press start multiple times it takes the input as many times as you click it, so the timer will go faster and faster 
+    if(int!==null){
+        clearInterval(int);
+    }
+    clearInterval(int)
     int = setInterval(startTimer, 10)
 })
 
