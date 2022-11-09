@@ -1,0 +1,30 @@
+body{
+    background-color: #342243;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 40%;
+    padding: 3em;
+}
+
+.timer{
+    text-align: center;
+    font-size: 3em;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 1em 2em;
+    border: 1px solid #342243;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
