@@ -24,7 +24,6 @@ body{
 .btn{
     cursor: pointer;
     padding: 1em 2em;
-    border: 1px solid #342243;
     border-radius: 5px;
     background-color: chartreuse;
 }

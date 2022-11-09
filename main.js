@@ -35,7 +35,7 @@ let startTimer = ()=>{
     }
 
     // Add the value of variables to element HTML div timer
-    timer.innerHTML = ` 0${hours} : 0${minutes} : 0${seconds} : ${milisec}`
+    timer.innerHTML = ` ${hours} : ${minutes} : ${seconds} : ${milisec}`
         
 }
 
